@@ -1,0 +1,121 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img{
+    border-radius: 10px;
+}
+
+body {
+    background-color: #f5f5f5;
+    color: #222;
+}
+
+
+header {
+    background-color: #fff;
+    border-bottom: 3px solid #09b212;
+    padding: 15px 0;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    top: 0;
+}
+
+header img {
+    width: 220px;
+}
+
+
+main {
+    width: 80%;
+    margin: 30px auto;
+    background-color: #fff;
+    padding: 25px;
+}
+
+
+.container {
+   background-color: white;
+}
+
+
+.container img {
+    margin-top: 80px;
+    width: 300px;
+    float: right;
+    margin-left: 20px;
+    border-radius: 4px;
+}
+
+
+.container p {
+    margin-top: 80px;
+    float: left;
+    width: calc(100% - 320px); /* espaço exato da imagem */
+    text-align: justify;
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+
+.container h1 {
+    position: relative;
+    top: -100px;
+    left: 10px;
+    text-align: center;
+    float: right;
+    width: 330px;
+    clear: both;
+    margin-top: 50px;
+    font-size: 23px;
+    color: #0aa41c;
+}
+
+
+footer {
+    width: 80%;
+    margin: 40px auto;
+    display: flex;
+    gap: 20px;
+}
+
+footer section {
+    background-color: #fff;
+    padding: 15px;
+    width: 25%;
+    border-top: 4px solid #0cc42b;
+}
+
+footer section img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+footer h3,
+footer h4 {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+footer p {
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.esporte img{
+    width: 270px;
+}
+.desinteresante img{
+    width: 223px;
+}
+.botti img{
+    width: 260px;
+}
+.allan img{
+    width: 285px;
+}

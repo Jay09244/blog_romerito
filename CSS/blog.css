@@ -75,8 +75,25 @@ main {
     font-size: 23px;
     color: #0aa41c;
 }
-
-
+.container button{
+    background-color: #fff;
+    color: #0cc42b;
+    border: 2px solid #0cc42b;
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    position: absolute;
+    bottom: 25%;
+    right: 42%;
+    transition: 1s;
+}
+.container button:hover{
+    background-color: #0cc42b;
+    color: #fff;
+    border: 2px solid #fff;
+    transition: 1s;
+    transform: scale(1.1);
+}
 footer {
     width: 80%;
     margin: 40px auto;
@@ -89,6 +106,12 @@ footer section {
     padding: 15px;
     width: 25%;
     border-top: 4px solid #0cc42b;
+    transition: 0.5s;
+}
+footer section:hover{
+    transform: scale(1.05);
+    transition: 1.2s;
+    background-color: #0cc42b;
 }
 
 footer section img {
